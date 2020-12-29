@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node --experimental-json-modules src/index.js",
     "start:dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src -d dist --source-maps"
   },
